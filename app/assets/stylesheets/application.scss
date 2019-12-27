@@ -1,6 +1,6 @@
-// $navbar-default-bg: #312312;
-// $light-orange: #ff8c00;
-// $navbar-default-color: $light-orange;
+ $navbar-default-bg: #312312;
+ $light-orange: #ff8c00;
+ $navbar-default-color: $light-orange;
 
 @import "font-awesome-sprockets";
 @import "font-awesome";
@@ -19,4 +19,28 @@
 // Masquerade alert shouldn't have a bottom margin
 body > .alert {
   margin-bottom: 0;
+}
+
+.navbar-custom {
+  background-color: $light-orange;
+  color: $navbar-default-bg;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color:#fff;
+}
+
+.navbar-custom .navbar-brand {
+    color:#eeeeee;
+}
+
+.jumbotron {
+  background-image: url(jumbotron1.jpg);
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  margin-top: 0;
+  padding-top: 0;
+
+
 }
